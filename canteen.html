@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANTEEN</title>
+    <link rel="stylesheet" href="canteen.css">
+</head>
+<body>
+    <h1>WELCOME TO CANTEEN</h1>
+    <h1>MENU</h2>
+        <marquee behavior="" direction="">
+        <h1>TIMING: 10AM TO 10PM</h1>
+        </marquee>
+    <h2><label for="">IDLI@20</label></h2>
+    <input type="number" name="" id="1" placeholder="NO OF ITEMS">
+    <h2><label for="">DOSA@20</label></h2>
+    <input type="number" name="" id="2" placeholder="NO OF ITEMS">
+    <h2><label for="">RASAM RICE@20</label></h2>
+    <input type="number" name="" id="3" placeholder="NO OF ITEMS">
+    <h2><label for="">MASALA DOSA@20</label></h2>
+    <input type="number" name="" id="4" placeholder="NO OF ITEMS">
+    <h2><label for="">GHEE MASALA DOSA@20</label></h2>
+    <input type="number" name="" id="5" placeholder="NO OF ITEMS">
+    <h2><label for="">LITHI CHOKHA@20</label></h2>
+    <input type="number" name="" id="6" placeholder="NO OF ITEMS">
+    <h2><label for="">RICEBATH@20</label></h2>
+    <input type="number" name="" id="7" placeholder="NO OF ITEMS">
+    <h2><label for="">DAL RICE@20</label></h2>
+    <input type="number" name="" id="8" placeholder="NO OF ITEMS">
+    <button>SUBMIT MADI</button>
+    <script>
+        function bill(){
+            var IDLI = document.getElementById("1").value;
+            var DOSA = document.getElementById("2").value;
+            var RASAM = document.getElementById("3").value;
+            var MASALA= document.getElementById("4").value;
+            var GHEE = document.getElementById("5").value;
+            var LITHI = document.getElementById("6").value;
+            var RICEBATH= document.getElementById("7").value;
+            var DAL= document.getElementById("8").value;
+
+            var total = IDLI*20+DOSA*20+RASAM*20+MASALA*20+GHEE*20+LITHI*20+RICEBATH*20+DAL*20;
+            alert("the total bill is: "+total);
+
+        }
+    </script>
+</body>
+</html>

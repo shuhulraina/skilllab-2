@@ -1,0 +1,28 @@
+body{
+    background-image: url(images/canteen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-decoration: double;
+    text-decoration: double;
+    text-shadow: 0 0 30px;
+    text-transform: uppercase;
+    backdrop-filter: blur(5px);
+    vertical-align: middle;
+    align-items: stretch;
+    
+}
+h1{
+    color: aqua;
+    text-decoration: double;
+    text-shadow: 0 0 20px;
+    text-decoration: underline;
+    background-color: cadetblue;
+    text-align: center;
+}
+h2{
+    color: aqua;
+    text-decoration: double;
+    text-shadow: 0 0 20px;
+    text-decoration: underline;
+}

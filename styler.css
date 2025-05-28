@@ -1,0 +1,11 @@
+body{
+    background-image: url(images/wp7231499.webp);
+    background-size: cover;
+    text-transform: uppercase;
+    text-align: left;
+    align-items: center;
+    background-image: -webkit-image-set(50);
+}
+h1{
+    color: aqua;
+}
